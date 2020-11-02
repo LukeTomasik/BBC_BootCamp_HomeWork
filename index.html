@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- I know you havent shown us this part but im just practicing what iv learned :D-->
+    <script src="https://kit.fontawesome.com/7ffdd2d782.js" crossorigin="anonymous"></script>
+    <title>BBC</title>
+</head>
+<body>
+    <header class="nav__mainContainer">
+        <nav class="nav__bar">
+            <section class="nav__logo">
+                <h1 class="bbc__logo">BBC LOGO</h1>
+            <span class="nav__signin"><a><i class="fas fa-user-circle"></i> SIGN IN</a></span>
+            </section>
+            <section class="nav__linkscontainer">
+                <ul class="nav__links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Sport</a></li>
+                    <li><a href="#">Reel</a></li>
+                    <li><a href="#">WorkLike</a></li>
+                    <li><a href="#">Travel</a></li>
+                    <li><a href="#">Future</a></li>
+                    <li><a href="#">Culture</a></li>
+                </ul>
+            </section>
+            <section class="nav__extraLinksContainer">
+                <ul class="nav__extraLinks">
+                    <!-- This is where more LIST items would go -->
+                    <li><a href="#">More</a></li>
+                </ul>
+            </section>
+            <section class="nav__searchcontainer">
+                <ul class="nav__searchFunction">
+                    <input type="text" placeholder="Search.."></input>
+                <ul>
+            </section>
+        </nav>
+    </header>
+    <section class="top__welcomeContainer">
+        <!-- not sure if keeping <section> tag for the "major chunks" is the welcome chunk and then News chunk
+            and replacing with div for the individual sections is the right html5 correct usage?-->
+        <div class="top__welcomeSection">
+            <h2>Welcome to BBC.com</h2>
+            <!-- defending my h2: h1 will be BBC europe is known as a news channel so date is important for a news channel otherwise <span>Date</span> -->
+            <h2>Thursday,13 August</h2>
+        </div>
+        <div class="top__welcomeNewsContainer">
+            <div class="top__verticalNewsContianer">
+                <img src="#" alt ="Important Figure 1">
+                <img src="#"alt="Important Figure 2">
+                <!-- the section below will be positioned absolutely - on the bottom-mid-->
+                <div class="top__verticalNewsContainer">
+                    <!-- me defending h2 tag - biggest news section on the page-->
+                    <h2>Israel and UAE strike historic peace deal</h2>
+                    <p>israel and the UAE agree to normalise relations, marking the third israel-arab peace deal</p>
+                    <!-- Im assuming its a button with translucent background - border-left made bigger-->
+                    <button type="button">Middle East</button>
+                </div>
+            </div>
+            <div class="top__horizontalNewsContainer">
+                <img src="#"alt="American flag waving and a canadian flag waving in the background">
+                <!-- the section below will be positioned absolutely inside the img size - on the bottom-mid-->
+                <div class="topLeft__nationNewsText">
+                    <h3>Americans,  go home: Tension at Canada-US border</h3>
+                    <!-- Im assuming its a button with translucent background - border-left made bigger-->
+                    <button type="button">CANADA</button>
+                </div>
+                <img src="#"alt="Doctor in mask holding up a vial">
+                <!-- the section below will be positioned absolutely inside the img size- on the bottom-mid-->
+                <div class="topRight__healthNewsText">
+                    <h3>How will the world vaccinate seven billion people?</h3>
+                    <!-- Im assuming its a button with translucent background - border-left made bigger-->
+                    <button type="button">HEALTH</button>
+                </div>
+                <img src="#"alt="Woman sitting in front of her desk with headphones on">
+                <!-- the section below will be positioned absolutely inside the img size- on the bottom-mid-->
+                <div class="top__workLifeNewsText">
+                    <h3>The online 'productivity gyms'</h3>
+                    <!-- Im assuming its a button with translucent background - border-left made bigger-->
+                    <button type="button">WORKLIFE</button>
+                </div>
+                <img src="#"alt="Man looks determined while sitting down">
+                <!-- the section below will be positioned absolutely inside the img size- on the bottom-mid-->
+                <div class="top__cultureNewsText">
+                    <h3>The folks singer murdered for his music</h3>
+                    <!-- Im assuming its a button with translucent background - border-left made bigger-->
+                    <button type="button">CULTURE</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="NewsContainer">
+        <div class=news_title>
+            <h2>News</h2>
+        </div>
+        <!-- This section can also be created using bootstrap card component-->
+        <div class="newsColumnContainer">
+            <div class="news__columnOne">
+                <img src="#" alt="Biden and Harris chatting">
+                <h3>Biden and Harris say trump has left US 'in tatters'<<h3>
+                <p>Joe Biden and running mate Kamal Harris call President Dont trump a "whining" incompetent leader.</p>
+                <button type="button">US ELECTION 2020</button>
+            </div>
+            <div class="news__columnTwo">
+                <img src="#" alt="Woman in a rally hold peace sign with fingers">
+                <h3>Women form 'solidarity chains' in Belarus protests<<h3>
+                <p>WOmen take to the streets of Minsk dessed in white as they demand an endto police brutality.</p>
+                <button type="button">EUROPE</button>
+            </div>
+            <div class="news__columnThree">
+                <img src="#" alt="Picture of POTUS's hair blowing">
+                <h3>Trump says low-pressure showers heads won't wash<<h3>
+                <p>The US calls for rules to be eased after Donald Trump complained of issues washing his hair.</p>
+                <button type="button">US & CANADA</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
