@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- I know you havent shown us this part but im just practicing what iv learned :D-->
+    <!-- I know you havent shown us this part but im just practicing :D-->
     <script src="https://kit.fontawesome.com/7ffdd2d782.js" crossorigin="anonymous"></script>
     <title>BBC</title>
 </head>
@@ -12,16 +12,17 @@
     <header class="nav__mainContainer">
         <nav class="nav__bar">
             <section class="nav__logo">
-                <h1 class="bbc__logo">BBC LOGO</h1>
-            <span class="nav__signin"><a><i class="fas fa-user-circle"></i> SIGN IN</a></span>
+                <!-- logo img is placeholder for how u want us to do it and only scaled size to make img not be massive-->
+                <img src="https://www.newbridge-health.org.uk/wp-content/uploads/2019/08/bbc-logo.jpg" alt="BBC Logo" height="50px">
+            <span class="nav__signIn"><a><i class="fas fa-user-circle"></i> SIGN IN</a></span>
             </section>
-            <section class="nav__linkscontainer">
+            <section class="nav__linksContainer">
                 <ul class="nav__links">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">News</a></li>
                     <li><a href="#">Sport</a></li>
                     <li><a href="#">Reel</a></li>
-                    <li><a href="#">WorkLike</a></li>
+                    <li><a href="#">Worklife</a></li>
                     <li><a href="#">Travel</a></li>
                     <li><a href="#">Future</a></li>
                     <li><a href="#">Culture</a></li>
@@ -29,13 +30,13 @@
             </section>
             <section class="nav__extraLinksContainer">
                 <ul class="nav__extraLinks">
-                    <!-- This is where more LIST items would go -->
                     <li><a href="#">More</a></li>
+                    <!-- This is where more LIST items would go -->
                 </ul>
             </section>
-            <section class="nav__searchcontainer">
+            <section class="nav__searchContainer">
                 <ul class="nav__searchFunction">
-                    <input type="text" placeholder="Search.."></input>
+                    <input type="text" placeholder="Search.."><i class="fas fa-search"></i></input>
                 <ul>
             </section>
         </nav>
@@ -49,7 +50,7 @@
             <h2>Thursday,13 August</h2>
         </div>
         <div class="top__welcomeNewsContainer">
-            <div class="top__verticalNewsContianer">
+            <figure class="top__verticalNewsContianer">
                 <img src="#" alt ="Important Figure 1">
                 <img src="#"alt="Important Figure 2">
                 <!-- the section below will be positioned absolutely - on the bottom-mid-->
@@ -60,8 +61,8 @@
                     <!-- Im assuming its a button with translucent background - border-left made bigger-->
                     <button type="button">Middle East</button>
                 </div>
-            </div>
-            <div class="top__horizontalNewsContainer">
+            </figure>
+            <figure class="top__horizontalNewsContainer">
                 <img src="#"alt="American flag waving and a canadian flag waving in the background">
                 <!-- the section below will be positioned absolutely inside the img size - on the bottom-mid-->
                 <div class="topLeft__nationNewsText">
@@ -90,7 +91,7 @@
                     <!-- Im assuming its a button with translucent background - border-left made bigger-->
                     <button type="button">CULTURE</button>
                 </div>
-            </div>
+            </figure>
         </div>
     </section>
     <section class="NewsContainer">
@@ -99,24 +100,24 @@
         </div>
         <!-- This section can also be created using bootstrap card component-->
         <div class="newsColumnContainer">
-            <div class="news__columnOne">
+            <figure class="news__columnOne">
                 <img src="#" alt="Biden and Harris chatting">
                 <h3>Biden and Harris say trump has left US 'in tatters'<h3>
                 <p>Joe Biden and running mate Kamal Harris call President Dont trump a "whining" incompetent leader.</p>
                 <button type="button">US ELECTION 2020</button>
-            </div>
-            <div class="news__columnTwo">
+            </figure>
+            <figure class="news__columnTwo">
                 <img src="#" alt="Woman in a rally hold peace sign with fingers">
                 <h3>Women form 'solidarity chains' in Belarus protests<h3>
                 <p>WOmen take to the streets of Minsk dessed in white as they demand an endto police brutality.</p>
                 <button type="button">EUROPE</button>
-            </div>
-            <div class="news__columnThree">
+            </figure>
+            <figure class="news__columnThree">
                 <img src="#" alt="Picture of POTUS's hair blowing">
                 <h3>Trump says low-pressure showers heads won't wash<h3>
                 <p>The US calls for rules to be eased after Donald Trump complained of issues washing his hair.</p>
                 <button type="button">US & CANADA</button>
-            </div>
+            </figure>
         </div>
     </section>
 </body>
